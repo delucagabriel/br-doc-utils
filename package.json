@@ -1,0 +1,29 @@
+{
+  "name": "br-doc-utils",
+  "version": "1.0.0",
+  "description": "Gerador e Validador de documentos brasileiros",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src",
+    "test": "vitest"
+  },
+  "keywords": [
+    "cnpj",
+    "cpf"
+  ],
+  "author": "Gabriel Mendes de Luca",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^7.0.0",
+    "tsx": "^3.12.7",
+    "vitest": "^0.32.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delucagabriel/br-doc-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/delucagabriel/br-doc-utils/issues"
+  },
+  "homepage": "https://github.com/delucagabriel/br-doc-utils#readme"
+}
