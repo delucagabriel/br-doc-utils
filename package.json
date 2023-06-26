@@ -1,8 +1,8 @@
 {
-  "name": "br-doc-utils",
+  "name": "br-document-utils",
   "version": "1.0.0",
   "description": "Gerador e Validador de documentos brasileiros",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsup src",
     "test": "vitest"
