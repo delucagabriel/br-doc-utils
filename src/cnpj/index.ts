@@ -1,4 +1,4 @@
-import { generateNumbers } from "../utils/generateNumbers"
+import { generateNumbers } from "../utils/GenerateNumbers"
 
 export class CNPJ {
     private generateVerifyDigit(digits: Array<string>): number {

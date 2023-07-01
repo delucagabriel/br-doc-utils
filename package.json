@@ -1,10 +1,18 @@
 {
   "name": "br-document-utils",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Gerador e Validador de documentos brasileiros",
   "main": "dist/index.js",
+  "tsup": {
+    "entry": [
+      "src/**/index.ts"
+    ],
+    "clean": true,
+    "splitting": false,
+    "minify": "terser"
+  },
   "scripts": {
-    "build": "tsup src",
+    "build": "tsup",
     "test": "vitest"
   },
   "keywords": [
@@ -14,6 +22,7 @@
   "author": "Gabriel Mendes de Luca",
   "license": "MIT",
   "devDependencies": {
+    "terser": "^5.18.2",
     "tsup": "^7.0.0",
     "tsx": "^3.12.7",
     "vitest": "^0.32.2"
